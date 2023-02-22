@@ -2,10 +2,10 @@
 
 /**
  * _putchar - prints char
- * @a: char to be printed
+ * @c: char to be printed
  * Return: 0
  */
-int _putchar(char a)
+int _putchar(char c)
 {
 	_putchar('_');
 	_putchar('p');
