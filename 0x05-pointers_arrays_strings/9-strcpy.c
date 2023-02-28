@@ -1,18 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * *_strcpy - copies pointer to a str
- * @dest: first pointer
- * @src: second pointer
- * Return: 0
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-
-char *_strcpy(char *dest, char *src)
+int main(void)
 {
-	int a;
+	char s1[98];
+	char *ptr;
 
-	for (a = 0; src[a] != '\0'; a++)
-		dest[a] = src[a];
-	dest[a] = '\0';
+	ptr = _strcpy(s1, "First, solve the problem. then, write the code\n");
+	printf("%s", s1);
+	printf("%s", ptr);
 	return (0);
 }
